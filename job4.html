@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Javajam Coffee House Menu</title>
+    <link rel="stylesheet" href="javajam4.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <b><a href="index4.html">Home</a></b> &nbsp;
+            <b><a href="menu4.html">Menu</a></b> &nbsp;
+            <b><a href="music4.html">Music</a></b> &nbsp;
+            <b><a href="jobs4.html">Jobs</a></b>
+        </nav>
+        <main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application.</p><br>
+            <p>Required fields are marked with an asterisk (*).</p>
+            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+            <label required for="myName">*Name:</label><br>
+            <input type="text" id="myName" name="myName">
+            <label required for="myEmail">*E-mail:</label>
+            <input type="email" id="myEmail" name="myEmail">
+            <label required for="myExperience">*Experience:</label>
+            <textarea id="myExperience" name="myExperience" rows="2" cols="20"></textarea>
+            <input type="submit" value="Apply Now" id="mySubmit">
+            </form>
+        </main>
+        <br>
+        <footer>
+            <small>
+                <i>
+                    Copyright &copy; 2018 JavaJam Coffee House<br>
+                    <a href="mailto:goshno@tarc.edu.my">goshno@tarc.edu.my</a>
+                </i>
+            </small>
+        </footer>
+    </div>
+</body>
+
+</html>
